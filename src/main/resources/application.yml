@@ -4,3 +4,6 @@ server:
 spring:
   application:
     name: payment-demo
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
